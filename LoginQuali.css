@@ -1,0 +1,17 @@
+body {
+    background-color: green;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+}
+
+.login-container {
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}

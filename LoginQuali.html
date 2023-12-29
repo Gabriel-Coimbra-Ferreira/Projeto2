@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="LoginQuali.css">
+    <title>Página de Login</title>
+</head>
+
+<body>
+
+    <div class="login-container">
+        <h1>Login Qualidade</h1>
+        <form id="loginForm">
+            <label for="username">Usuário:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Senha:</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="button" onclick="login()">Login</button>
+        </form>
+    </div>
+
+    <div id="loggedInContent" class="hidden">
+        <h1>Bem-vindo, <span id="loggedInUser"></span>!</h1>
+        <button id="clientButton">Botão do Cliente</button>
+    </div>
+
+    <script src="LoginQuali.js"></script>
+
+</body>
+
+</html>

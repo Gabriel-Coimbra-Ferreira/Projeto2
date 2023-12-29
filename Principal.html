@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Principal.css">
+    <title>Página Inicial</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Bem-vindo!</h1>
+        <h2>Aqui você poderá ver a situação atual do lote que você procura</h2>
+        <p>Primeiro vamos fazer seu login. Você faz parte de qual corporação?</p>
+
+        <div class="buttons">
+            <button id="log" onclick="redirectTo('LoginLog.html')">Logística</button>
+            <button id="qua" onclick="redirectTo('LoginQuali.html')">Qualidade</button>
+            <button id="cli" onclick="redirectTo('LoginCliente.html')">Cliente</button>
+        </div>
+
+        <div class="additional-icons-container">
+            <div class="icon-container">
+                <img src="iconWhats.png" alt="WhatsApp Chat">
+                <span class="icon-message">Entre em contato conosco pelo WhatsApp para que possamos já reservar seu produto X.</span>
+            </div>
+
+            <!-- Adicionar mais quatro ícones e mensagens -->
+            <div class="icon-container">
+                <img src="iconInterroga.png" alt="Ícone Interroga">
+                <span class="icon-message">Quem somos? Nós da Coimbra Store estamos aqui para ser a melhor produtora de X e sempre focar na qualidade do produto e entrega rápida.</span>
+            </div>
+
+            <div class="icon-container">
+                <img src="iconTempo.png" alt="Ícone Tempo">
+                <span class="icon-message">Um dos nossos principais valores é o nosso tempo de entrega que sempre priorizamos ser o mais rápido, satisfazendo nossos clientes com entregas nacionais em até 3 dias e com entregas internacionais em no máximo 7 dias.</span>
+            </div>
+
+            <div class="icon-container">
+                <img src="iconCusto.png" alt="Ícone Custo">
+                <span class="icon-message">Somos a número 1 no mercado, não só em qualidade, mas em custo. Nossos produtos, além de bons, estão sempre com um ótimo preço.</span>
+            </div>
+
+            <div class="icon-container">
+                <img src="iconCliente.png" alt="Ícone Cliente">
+                <span class="icon-message">Somos referência no mundo todo, com diversos clientes ao redor do globo. Venha já ser mais um nessa grande família!</span>
+            </div>
+        </div>
+
+        <script src="Principal.js"></script>
+
+</body>
+
+</html>

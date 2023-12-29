@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: green;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.buttons button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    background-color: #ddd;
+}
+
+#log,
+#cli,
+#qua {
+    padding: 15px 30px;
+    /* Ajuste o padding conforme necessário */
+    font-size: 18px;
+    /* Ajuste o tamanho da fonte conforme necessário */
+    background-color: green;
+    /* Nova cor de fundo para todos os botões */
+    color: #ffffff;
+    /* Cor do texto padrão (exemplo: branco) */
+    border: none;
+    /* Remove a borda do botão, se desejado */
+    border-radius: 5px;
+    /* Adiciona bordas arredondadas, se desejado */
+    /* Mudança de cor ao passar o mouse */
+    transition: background-color 0.3s ease;
+}
+
+#log:hover,
+#cli:hover,
+#qua:hover {
+    background-color: cadetblue;
+    /* muda a cor de fundo ao passar o mouse  */
+    color: #ffffff;
+    /* muda cor do texto ao passar o mouse*/
+}
+
+
+/* Adicione isso ao seu arquivo Principal.css */
+
+.container {
+    position: relative;
+}
+
+.whatsapp-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.whatsapp-message {
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-top: 5px;
+    /* Adicione um espaçamento entre a imagem e a mensagem, se desejar */
+}
+
+.additional-icons-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    padding: 10px;
+}
+
+.icon-container {
+    text-align: center;
+    margin-right: 10px;
+    /* Espaço entre os ícones */
+}
+
+.icon-container img {
+    width: 50px;
+    height: 50px;
+}
+
+.icon-message {
+    color: #000;
+    /* Cor do texto */
+    padding: 5px;
+    /* Ajuste conforme necessário */
+    text-align: center;
+    margin-top: 5px;
+    /* Ajuste conforme necessário */
+    max-width: 70px;
+    /* Ajuste conforme necessário */
+    font-size: 12px;
+    /* Ajuste conforme necessário */
+}

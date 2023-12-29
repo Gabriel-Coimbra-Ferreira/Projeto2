@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Quali.css">
+    <title>Página de Qualidade</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Página de Qualidade</h1>
+
+        <!-- Formulário para criar produtos -->
+        <form id="productForm">
+            <label for="productName">Nome do Produto:</label>
+            <input type="text" id="productName" required>
+
+            <label for="productDescription">Descrição do Produto:</label>
+            <textarea id="productDescription" required></textarea>
+
+            <label for="productStatus">Status do Produto:</label>
+            <select id="productStatus" required>
+                <option value="Completo">Completo</option>
+                <option value="Inacabado">Inacabado</option>
+            </select>
+
+            <button type="button" onclick="createProduct()">Criar Produto</button>
+        </form>
+
+        <!-- Área para exibir lotes -->
+        <div id="lotList">
+            <h2>Lotes Criados</h2>
+            <input type="text" id="searchBar" placeholder="Pesquisar por lote..." oninput="searchLots()">
+            <ul id="lotItems"></ul>
+        </div>
+    </div>
+
+    <script src="Quali.js"></script>
+
+</body>
+
+</html>
